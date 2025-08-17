@@ -1,6 +1,17 @@
 # Zero-Sync-Engine
 
-A real-time collaborative application built with Next.js and [Rocicorp Zero](https://github.com/rocicorp/zero), demonstrating seamless data synchronization across multiple clients.
+**⚠️ This is a test project** - A simple demonstration and testing environment for [Rocicorp Zero](https://github.com/rocicorp/zero)'s sync engine capabilities. This project is designed to help developers understand and experiment with Zero's real-time synchronization features.
+
+## 🎯 Purpose
+
+This repository serves as a **test bed** for:
+- Testing Zero's sync engine functionality
+- Experimenting with real-time data synchronization
+- Learning how to implement Zero in a Next.js application
+- Understanding local-first database concepts
+- Prototyping collaborative features
+
+**Note**: This is not intended for production use - it's purely for educational and testing purposes.
 
 ## 🚀 Features
 
@@ -97,7 +108,7 @@ Zero-Sync-Engine/
 
 ## 🗄️ Database Schema
 
-The application uses a simple message-based schema:
+The application uses a simple message-based schema for testing purposes:
 
 ```typescript
 const messages = table('messages')
@@ -178,4 +189,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Happy coding! 🎉**
+**Happy testing! 🧪**
